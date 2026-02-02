@@ -17,8 +17,8 @@ jobs:
       with:
         stale-issue-message: '@repo-maintainers This issue has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed issue at any time.'
         stale-pr-message: '@repo-maintainers This pull request has been marked as stale due to 60 days of inactivity. To prevent automatic closure in 10 days, remove the stale label or add a comment. You can reopen a closed pull request at any time.'
-        exempt-issue-labels: bug,enhancement
-        exempt-pr-labels: bug,enhancement
+        exempt-issue-labels: 
+        exempt-pr-labels: 
         days-before-stale: 0
         days-before-close: -1
         remove-stale-when-updated: true
